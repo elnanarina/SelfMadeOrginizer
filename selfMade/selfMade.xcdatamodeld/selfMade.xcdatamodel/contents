@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="13F34" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Calendar" syncable="YES">
+        <attribute name="isPerform" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="isTakeTime" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="performDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="performTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="textTask" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titleTask" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Event">
+        <attribute name="longTerm" optional="YES" attributeType="Date">
+            <userInfo/>
+        </attribute>
+        <userInfo/>
+    </entity>
+    <entity name="LongTerm" syncable="YES">
+        <attribute name="longTerm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="priority" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="SelfMade" syncable="YES">
+        <attribute name="finalDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="section" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Calendar" positionX="279" positionY="225" width="128" height="135"/>
+        <element name="Event" positionX="261" positionY="189" width="128" height="58"/>
+        <element name="LongTerm" positionX="270" positionY="216" width="128" height="75"/>
+        <element name="SelfMade" positionX="279" positionY="234" width="128" height="90"/>
+    </elements>
+</model>
